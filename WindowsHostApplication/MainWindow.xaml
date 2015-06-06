@@ -1,0 +1,11 @@
+﻿<Window x:Class="WindowsHostApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="Btnlaunch" Content="Launch Service" HorizontalAlignment="Left" Margin="213,10,0,0" VerticalAlignment="Top" Width="90" Height="23" Click="Btnlaunch_Click"/>
+        <Button x:Name="BtnStop" Content="Stop Service" HorizontalAlignment="Left" Margin="213,47,0,0" VerticalAlignment="Top" Width="90" Height="23" Click="BtnStop_Click"/>
+        <Label x:Name="lblMovieName" Margin="37,92,22.4,22.8" HorizontalAlignment="Center" FontSize="18" Width="459" RenderTransformOrigin="0.497,-0.573"/>
+        <Button x:Name="BtnInProc" Content="Launch In-Proc" Margin="340,18,0,258.8" HorizontalAlignment="Left" FontSize="18" Click="BtnInProc_Click"  />
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="MovieLib.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="0,0,-159.6,-171.2">
+        <Button Content="Get Directors" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="387,41,0,0" Click="Button_Click"/>
+        <ListBox HorizontalAlignment="Left" Height="180" Margin="155,76,0,0" VerticalAlignment="Top" Width="232" Name="LstDirectors" FontSize="16">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" >
+                        <TextBlock Text="{Binding DirectorName}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Content="Get Directors procedurally" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Margin="30,13,0,0" Click="Button_Click_1"/>
+        <Button Content="Get Directors via Service Reference" HorizontalAlignment="Left" VerticalAlignment="Top" Width="226" Margin="30,42,0,0" Click="Button_Click_2" />
+        <Label Content="Movie Name" Height="40" HorizontalAlignment="Left" Margin="21,271,0,0" x:Name="label1_Copy1" VerticalAlignment="Top" FontSize="20" Width="147" />
+        <TextBox x:Name="txtMovieName" HorizontalAlignment="Left" Height="32" Margin="149,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="359" FontSize="18"/>
+        <Button Content="Invoke" Height="39" HorizontalAlignment="Left" Margin="30,345,0,0" x:Name="btnInvoke" VerticalAlignment="Top" Width="100" FontSize="20" Click="btnInvoke_Click" />
+
+    </Grid>
+</Window>

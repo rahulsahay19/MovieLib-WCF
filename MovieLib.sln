@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{329BAA44-9AC6-482A-B6AD-512246869558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHostApplication", "ConsoleHostApplication\ConsoleHostApplication.csproj", "{2CD43A1D-F37F-47DA-898D-9183B6ABE56C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Data", "MovieLib.Data\MovieLib.Data.csproj", "{F11E080A-EAF2-4D52-97BA-E75C1CFDDAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Contracts", "MovieLib.Contracts\MovieLib.Contracts.csproj", "{00D29EB4-4C29-47CF-A429-15D51A3D89D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Tests", "MovieLib.Tests\MovieLib.Tests.csproj", "{F5377038-61CA-4D2D-A396-AFA484AF41BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Services", "MovieLib.Services\MovieLib.Services.csproj", "{BDCAF6DB-C884-4355-8BFA-DBF2010017E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Core", "MovieLib.Core\MovieLib.Core.csproj", "{9B1EAE46-1CC3-4AB9-A906-32D78A15D671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHostApplication", "WebHostApplication\WebHostApplication.csproj", "{E2221292-3A88-4BDC-AB60-6BA02F7F4425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsHostApplication", "WindowsHostApplication\WindowsHostApplication.csproj", "{0870B9EA-2A35-4ECC-A9A4-951130D6042C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Proxies", "MovieLib.Proxies\MovieLib.Proxies.csproj", "{412EE9ED-2824-4779-B2DE-660A127341A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.Client", "MovieLib.Client\MovieLib.Client.csproj", "{B9578A42-86FC-4085-9A6A-E0D2AC05A09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib.WebClient", "MovieLib.WebClient\MovieLib.WebClient.csproj", "{CFB6E724-F701-4845-9CD9-B98F7EBDD22E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CD43A1D-F37F-47DA-898D-9183B6ABE56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD43A1D-F37F-47DA-898D-9183B6ABE56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD43A1D-F37F-47DA-898D-9183B6ABE56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD43A1D-F37F-47DA-898D-9183B6ABE56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11E080A-EAF2-4D52-97BA-E75C1CFDDAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11E080A-EAF2-4D52-97BA-E75C1CFDDAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11E080A-EAF2-4D52-97BA-E75C1CFDDAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11E080A-EAF2-4D52-97BA-E75C1CFDDAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D29EB4-4C29-47CF-A429-15D51A3D89D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D29EB4-4C29-47CF-A429-15D51A3D89D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D29EB4-4C29-47CF-A429-15D51A3D89D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D29EB4-4C29-47CF-A429-15D51A3D89D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5377038-61CA-4D2D-A396-AFA484AF41BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5377038-61CA-4D2D-A396-AFA484AF41BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5377038-61CA-4D2D-A396-AFA484AF41BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5377038-61CA-4D2D-A396-AFA484AF41BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCAF6DB-C884-4355-8BFA-DBF2010017E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCAF6DB-C884-4355-8BFA-DBF2010017E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCAF6DB-C884-4355-8BFA-DBF2010017E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCAF6DB-C884-4355-8BFA-DBF2010017E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1EAE46-1CC3-4AB9-A906-32D78A15D671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1EAE46-1CC3-4AB9-A906-32D78A15D671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1EAE46-1CC3-4AB9-A906-32D78A15D671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1EAE46-1CC3-4AB9-A906-32D78A15D671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2221292-3A88-4BDC-AB60-6BA02F7F4425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2221292-3A88-4BDC-AB60-6BA02F7F4425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2221292-3A88-4BDC-AB60-6BA02F7F4425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2221292-3A88-4BDC-AB60-6BA02F7F4425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0870B9EA-2A35-4ECC-A9A4-951130D6042C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0870B9EA-2A35-4ECC-A9A4-951130D6042C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0870B9EA-2A35-4ECC-A9A4-951130D6042C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0870B9EA-2A35-4ECC-A9A4-951130D6042C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412EE9ED-2824-4779-B2DE-660A127341A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412EE9ED-2824-4779-B2DE-660A127341A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412EE9ED-2824-4779-B2DE-660A127341A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412EE9ED-2824-4779-B2DE-660A127341A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9578A42-86FC-4085-9A6A-E0D2AC05A09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9578A42-86FC-4085-9A6A-E0D2AC05A09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9578A42-86FC-4085-9A6A-E0D2AC05A09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9578A42-86FC-4085-9A6A-E0D2AC05A09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB6E724-F701-4845-9CD9-B98F7EBDD22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB6E724-F701-4845-9CD9-B98F7EBDD22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB6E724-F701-4845-9CD9-B98F7EBDD22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB6E724-F701-4845-9CD9-B98F7EBDD22E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CD43A1D-F37F-47DA-898D-9183B6ABE56C} = {329BAA44-9AC6-482A-B6AD-512246869558}
+		{E2221292-3A88-4BDC-AB60-6BA02F7F4425} = {329BAA44-9AC6-482A-B6AD-512246869558}
+		{0870B9EA-2A35-4ECC-A9A4-951130D6042C} = {329BAA44-9AC6-482A-B6AD-512246869558}
+	EndGlobalSection
+EndGlobal

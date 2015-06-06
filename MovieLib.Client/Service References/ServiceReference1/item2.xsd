@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MovieLib.Contracts" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MovieLib.Contracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfMovieData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MovieData" nillable="true" type="tns:MovieData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMovieData" nillable="true" type="tns:ArrayOfMovieData" />
+  <xs:complexType name="MovieData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DirectorName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MovieName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReleaseYear" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MovieData" nillable="true" type="tns:MovieData" />
+</xs:schema>
