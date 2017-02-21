@@ -60,7 +60,7 @@ namespace Nasdaq.Corporate.Portal.IR.Api
         private static void CreateFactory(IUnityContainer container)
         {
             Type t = null;
-            Assembly assembly = Assembly.Load("Nasdaq.Corporate.Portal.IR.Data.Contract");
+            Assembly assembly = Assembly.Load("MovieLib.Portal.Data.Contract");
             foreach (Type ti in assembly.GetTypes().Where(x => x.IsInterface))
             {
                 if (ti.GetCustomAttributes(true).OfType<ServiceContractAttribute>().Any())
